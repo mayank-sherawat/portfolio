@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="tech-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#22d3ee" /> <!-- Cyan-400 -->
+      <stop offset="100%" stop-color="#c084fc" /> <!-- Purple-400 -->
+    </linearGradient>
+  </defs>
+  
+  <!-- Background: Deep Tech Circle -->
+  <circle cx="256" cy="256" r="256" fill="#020617" />
+  
+  <!-- Main Monogram Path -->
+  <!-- A clean, thick stroked 'M' shape -->
+  <path d="M146 392 V160 L256 270 L366 160 V392" 
+        fill="none" 
+        stroke="url(#tech-grad)" 
+        stroke-width="45" 
+        stroke-linecap="round" 
+        stroke-linejoin="round" />
+        
+  <!-- Tech Nodes/dots at the top points -->
+  <circle cx="146" cy="120" r="25" fill="#22d3ee" />
+  <circle cx="366" cy="120" r="25" fill="#c084fc" />
+  
+  <!-- Subtle Grid Pattern Background (Optional for texture) -->
+  <path d="M56 256h400 M256 56v400" stroke="#1e293b" stroke-width="4" opacity="0.3" />
+</svg>
